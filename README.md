@@ -1,8 +1,7 @@
 # Bubble Game
+## [Play]( https://sumitchouhan774.github.io/Bubble-Game/)
 
 Bubble Game is an interactive and engaging browser-based game where players pop bubbles with specific numbers to score points within a set time limit.
-
-## [To Play Click]( https://sumitchouhan774.github.io/Bubble-Game/)
 
 ## Table of Contents
 - [Features](#features)
