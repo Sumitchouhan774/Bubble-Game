@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: cursive;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/* give backgrond color */
+.main {                                                    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(171, 228, 171);
+}
+/*background of the game where we can store the top and mid*/
+.panel {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+/*top of the panel*/
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(33, 99, 33);
+}
+/* Element of the top which is text */
+.elem {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/*Box of the top panel*/
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(33, 99, 33);
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: white;
+} 
+/*mid part od the panel*/
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Bubble of the game*/
+.bubble {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(33, 99, 33);
+    border-radius: 50%;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(39, 138, 39);
+}
+/* last msg of game which is declare in js*/
+.msg{
+    font-size: 5em;
+    color: rgb(39, 138, 39);
+}
+.refresh{
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: rgb(39, 138, 39);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+.refresh:hover{
+    background-color: rgb(15, 89, 15);
+    cursor: pointer;
+}
